@@ -1,0 +1,35 @@
+{
+  "name": "Cordova-Demos",
+  "version": "1.0.0",
+  "description": "",
+  "cordova": {
+    "id": "cordova-plugin-template",
+    "platforms": [
+      "android",
+      "ios",
+      "windows"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jorisbrauns/Cordova-Demos.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "cordova-windows"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=6.2.0"
+    }
+  ],
+  "author": "Joris Brauns",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jorisbrauns/Cordova-Demos/issues"
+  },
+  "homepage": "https://github.com/jorisbrauns/Cordova-Demos#readme"
+}

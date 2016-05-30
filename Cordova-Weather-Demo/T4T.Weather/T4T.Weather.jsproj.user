@@ -7,7 +7,7 @@
   <PropertyGroup>
     <ReferenceCachePath>C:\Users\mrjor\AppData\Local\Temp\T4T.Weather_refcache</ReferenceCachePath>
     <ShowAllFiles>false</ShowAllFiles>
-    <AppxShowAllApps>False</AppxShowAllApps>
+    <AppxShowAllApps>True</AppxShowAllApps>
     <AppxPackageIsForStore>True</AppxPackageIsForStore>
     <AppxBuildConfigurationSelection>arm</AppxBuildConfigurationSelection>
   </PropertyGroup>

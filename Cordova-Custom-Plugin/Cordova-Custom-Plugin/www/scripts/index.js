@@ -16,6 +16,17 @@
         var element = document.getElementById("deviceready");
         element.innerHTML = 'Device Ready';
         element.className += ' ready';
+
+        var success = function (message) {
+            console.log(message);
+        }
+
+        var failure = function () {
+            console.log("Error calling Hello Plugin");
+        }
+
+        hello.greet("World", success, failure);
+
     };
 
     function onPause() {

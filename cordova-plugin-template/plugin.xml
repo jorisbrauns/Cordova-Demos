@@ -16,30 +16,29 @@
   </js-module>
 
   <platform name="android">
-
     <config-file target="res/xml/config.xml" parent="/*">
       <feature name="Hello">
-        <param name="android-package" value="jb.example.plugin.Hello"/>
+        <param name="android-package" value="org.apache.cordova.example.Hello"/>
       </feature>
     </config-file>
-
-    <source-file src="src/android/Hello.java" target-dir="src/com/example/plugin/"/>
+    <source-file src="src/android/Hello.java" target-dir="src/org/apache/cordova/example"/>
   </platform>
 
   <platform name="ios">
-
     <config-file target="config.xml" parent="/widget">
       <feature name="Hello">
         <param name="ios-package" value="HWPHello" />
       </feature>
     </config-file>
-
     <header-file src="src/ios/HWPHello.h" target-dir="HelloPlugin"/>
     <source-file src="src/ios/HWPHello.m" target-dir="HelloPlugin"/>
   </platform>
 
   <platform name="windows">
-    <source-file src="src/windows/Hello.cs"/>
+    <js-module src="src/windows/HelloProxy.js" name="Hello">
+      <runs />
+    </js-module>
+    <framework src="src/windows/Hello.winmd" custom="true" target="phone"/>
   </platform>
 
 </plugin>

@@ -1,12 +1,4 @@
 {
-    "cordova-plugin-battery-status": {
-        "source": {
-            "type": "registry",
-            "id": "cordova-plugin-battery-status"
-        },
-        "is_top_level": true,
-        "variables": {}
-    },
     "cordova-plugin-template": {
         "source": {
             "type": "local",

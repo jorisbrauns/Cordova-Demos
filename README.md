@@ -8,3 +8,4 @@ The weather app is making use of the openweathermap data and it's API. Before yo
 
 ## Cordova Plugin Template
 You would like start building you own Cordova plugins? Feel free to use this template!
+It supports Universal Windows Platorm, Android and IOS

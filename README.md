@@ -1,4 +1,5 @@
 # Cordova-Demos
+Learn how cordova works by using these samples.
 
 ## Cordova Angular demo
 The purpose of this project is to show you how should load Angular when using Cordova.
